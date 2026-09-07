@@ -1,4 +1,4 @@
-(defproject org.jank-lang.commons/sdl-sys "0.1-SNAPSHOT"
+(defproject org.jank-lang.commons/sdl-sys "2026.09-1"
   :description "Raw package for SDL."
   :url "https://github.com/jank-lang/commons"
   :license {:name "zlib"
