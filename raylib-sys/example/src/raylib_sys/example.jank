@@ -2,15 +2,17 @@
   (:include "raylib.h"))
 
 (defn -main [& args]
-  (cpp/InitWindow 200 100 "raylib")
+  (cpp/InitWindow 800 600 "raylib")
   (cpp/SetTargetFPS 60)
 
   (while (cpp/! (cpp/WindowShouldClose))
-    (let [time (cpp/GetTime)
-          color (cpp/ColorFromHSV (mod (* 100.0 time) 360.0) 0.5 0.5)]
+    (let [time (cpp/GetTime)]
       (cpp/BeginDrawing)
       (cpp/ClearBackground cpp/RAYWHITE)
-      (cpp/DrawText "Hello jank!" 50 30 20 color)
+      (dotimes [col 7]
+        (dotimes [row 20]
+          (let [color (cpp/ColorFromHSV (mod (* 100.0 (+ time col row)) 360.0) 0.5 0.5)]
+            (cpp/DrawText "Hello jank!" (* col 120) (* row 30) 20 color))))
       (cpp/EndDrawing)))
 
   (cpp/CloseWindow))
