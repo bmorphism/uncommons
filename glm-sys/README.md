@@ -7,7 +7,7 @@ Raw package for glm.
 Add this project to your Leiningen `:dependencies` vector:
 
 ```clojure
-[org.jank-lang.commons/glm-sys "0.1-SNAPSHOT"]
+[org.jank-lang.commons/glm-sys "2026.09-1"]
 ```
 
 ## Example

@@ -1,4 +1,4 @@
-(defproject org.jank-lang.commons/glm-sys "0.1-SNAPSHOT"
+(defproject org.jank-lang.commons/glm-sys "2026.09-1"
   :description "Raw package for glm."
   :url "https://github.com/jank-lang/commons"
   :license {:name "MIT"
