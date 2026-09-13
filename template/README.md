@@ -1,5 +1,5 @@
 # TODO
-[![Clojars Project](https://img.shields.io/clojars/v/org.jank-lang.commons/TODO.svg)]
+[![Clojars Project](https://img.shields.io/clojars/v/org.jank-lang.commons/TODO.svg)](https://releases.clojars.org/org.jank-lang.commons/TODO)
 TODO description.
 
 ## Usage
