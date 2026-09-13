@@ -2,7 +2,7 @@
   (:include "iostream"
             "glm/glm.hpp"
             "glm/gtc/constants.hpp"
-            "glm/gtx/string_cast.hpp")
+            "glm/gtx/io.hpp")
   (:refer-global :only [glm.dmat4 glm.dvec3]))
 
 (defn -main [& args]
@@ -12,6 +12,6 @@
         model (cpp/glm.scale (glm.dmat4 1.0) (glm.dvec3 0.5))
         camera (cpp/* (cpp/* projection view) model)]
     (-> cpp/std.cout
-        (cpp/<< (cpp/glm.to_string camera))
+        (cpp/<< camera)
         (cpp/<< "\n"))
     nil))
