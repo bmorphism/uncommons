@@ -7,7 +7,7 @@ Raw package from cpp-httplib.
 Add this project to your Leiningen `:dependencies` vector:
 
 ```clojure
-[org.jank-lang.commons/cpp-httplib-sys "0.1-SNAPSHOT"]
+[org.jank-lang.commons/cpp-httplib-sys "2026.09-1"]
 ```
 
 ## Example
