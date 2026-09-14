@@ -1,6 +1,7 @@
 # jank commons
 This repo contains a set of curated packages which maintained by the jank
-community.
+community. For an easy-to-browse list of jank packages, check out the
+[awesome-jank list](https://github.com/jank-lang/awesome-jank).
 
 ## Criteria for new packages
 We are interested in packages which are:
