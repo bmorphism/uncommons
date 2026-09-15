@@ -1,5 +1,5 @@
 # sdl-sys
-[![Clojars Project](https://img.shields.io/clojars/v/org.jank-lang.commons/sdl-sys.svg)]
+[![Clojars Project](https://img.shields.io/clojars/v/org.jank-lang.commons/sdl-sys.svg)](https://releases.clojars.org/org.jank-lang.commons/sdl-sys)
 
 Raw package for SDL.
 
